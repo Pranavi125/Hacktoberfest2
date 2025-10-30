@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+
+  <meta name="description"
+    content="Learn more about the Hacktoberfest beginner-friendly project. A place for new developers to start their open source journey!">
+
+  <link rel="icon" href="https://JANSH7784/img/hacktoberfest-favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://avatars.githubusercontent.com" crossorigin>
+  <link rel="dns-prefetch" href="//avatars.githubusercontent.com">
+
+  <!-- CSS Dependencies -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/footer.css">
+
+  <title>Hacktoberfest - About</title>
+  <style>
+    .about-section {
+      padding: 100px 20px;
+      text-align: center;
+      background: #fdf3f3;
+    }
+
+    .about-section h1 {
+      font-family: 'Special Elite', cursive;
+      font-size: 3rem;
+      color: #FF0844;
+      margin-bottom: 20px;
+    }
+
+    .about-section p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 1.2rem;
+      line-height: 1.7;
+      color: #333;
+    }
+
+    .btn-contribute {
+      margin-top: 30px;
+    }
+
+    .st0 {
+      fill: #FF0844;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Back-to-top Button -->
+  <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm">
+    <a class="navbar-brand" href="/">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="50px" height="50px" role="img"
+        aria-labelledby="about-logo-title">
+        <title id="about-logo-title">Hacktoberfest 2024</title>
+        <path class="st0"
+          d="M0.7,0.7v298.7h298.7V0.7H0.7z M197.8,271.4l-32-32v-95.6l-31.4,31.4v79l-17.3,17.3L99.8,254V70.4L95,65.6  L73,87.7L61.7,76.5l47.8-47.8l0.1,0.1l0,0l1.9,1.8l22.8,22.8V136l31.4-31.4V70.2L150,54.4l25.8-25.8l24.7,24.7v169.1l12.1,12.1  l14.7-14.7l11.1,11.1L197.8,271.4z">
+        </path>
+      </svg>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto" id="menu">
+        <!-- Navbar items dynamically loaded -->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="about-section" data-aos="fade-up">
+    <h1>Welcome to Hacktoberfest</h1>
+    <p>
+      This project is a beginner-friendly space for all those who want to dive into the world of open source.  
+      Whether you’re a developer, designer, or just someone curious about contributing — you belong here!  
+      Learn, contribute, and collaborate with amazing people from all around the globe during <b>Hacktoberfest</b>.
+    </p>
+    <p>
+      Contributing to open source helps you grow, build confidence, and be part of something bigger.  
+      No contribution is too small — from fixing typos to creating new features, every effort counts.
+    </p>
+    <a href="contributors.html" class="btn btn-outline-danger btn-lg btn-contribute">Meet Our Contributors</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <h3>Hacktoberfest <span id="current-year-footer"></span></h3>
+      <p>This Project is participating in <b>Hacktoberfest</b>. Copyright &copy;
+        <span id="current-year-copyright"></span>.
+      </p>
+      <div class="footer-menu">
+        <ul class="socials">
+          <li><a href="https://www.facebook.com/fineanmol" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://twitter.com/fineanmol" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/fineanmol" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/fineanmol/" target="_blank"><i
+                class="fa fa-linkedin-square"></i></a></li>
+          <li><a href="https://github.com/fineanmol/Hacktoberfest2024" target="_blank"><i
+                class="fa fa-github-square"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Dependencies -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6QA4fZSN7NTMZBeZfFgOwOLfLZc4eME6vH3kn4tEWvJgC4ndOlxogypGLyBI" crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/d9f7ec7b29.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./scripts/menu.js" defer></script>
+  <script src="./scripts/main.js" defer></script>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
